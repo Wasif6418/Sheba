@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout3_gradient"
+    android:orientation="vertical"
+    tools:context=".CarWashReg">
+
+
+    <View
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="22dp"
+        android:background="#150e0e">
+    </View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="Give Details"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="22dp"
+        android:background="#150e0e">
+    </View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where from you passed or studying?"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/studyid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="AUST,BUET .."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teaching experience"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/experienceid"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="1 year,3 years ..."
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class(you would like  to teach)"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/classId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="6,7,8 etc."
+             />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subjects(you would like to teach)"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/subjectId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="math,science etc." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tution fees starts from"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/feesId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2 years,1year ..."
+                android:inputType="number" />
+
+
+            <Button
+                android:id="@+id/signUpButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8ad7fd"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Signup"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

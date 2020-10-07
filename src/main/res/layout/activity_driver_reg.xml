@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout3_gradient"
+    android:orientation="vertical"
+    tools:context=".CarWashReg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Give Details"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <View
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="22dp"
+        android:background="#150e0e">
+    </View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#190160"
+        android:text="Enter the amount you charge per hour"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="22dp"
+        android:background="#150e0e">
+    </View>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Before 10PM"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/before10Id"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter value"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="After 10 PM"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/after10Id"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter value"
+                android:inputType="number" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Catagory"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/premiumId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Premium"
+                    />
+                <RadioButton
+                    android:id="@+id/standardId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Standard"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/signUpButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8ad7fd"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Signup"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

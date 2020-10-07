@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationUser"
+    android:orientation="vertical"
+    android:background="@drawable/layout3_gradient"
+    android:padding="12dp"
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/sbd" />
+
+
+    <EditText
+        android:id="@+id/userNameId"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="12dp"
+        android:textColor="#383939"
+        android:hint="User name"
+        android:textColorHint="#383939"
+        />
+
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="12dp"
+        android:textColor="#383939"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#383939"
+        />
+
+    <EditText
+        android:id="@+id/passwordId"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="12dp"
+        android:textColor="#383939"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#383939"
+        />
+
+
+    <EditText
+        android:id="@+id/passwordId2"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="12dp"
+        android:textColor="#383939"
+        android:hint="Re-type password"
+        android:inputType="textPassword"
+        android:textColorHint="#383939"
+        />
+    <EditText
+        android:id="@+id/phoneId"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="12dp"
+        android:textColor="#383939"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColorHint="#383939"
+        />
+
+    <Button
+        android:id="@+id/signUpButtonId"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#82beec"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#f2f0cd"
+
+        />
+
+</LinearLayout>

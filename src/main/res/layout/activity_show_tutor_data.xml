@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowTutorData"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Details"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/name1Id"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/email1Id"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/phone1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Studying or passed from"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/study1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teaching Experience"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/experience1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Classes he wants to teach"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/class1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subjects he wants to teach"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/subject1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tution fees starts from"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/fees1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+
+            <Button
+                android:id="@+id/callButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8ad7fd"
+
+                android:textStyle="bold"
+                android:textColor="#16578c"
+                android:textSize="25dp"
+                android:text="CALL"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="35dp">
+
+            </View>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

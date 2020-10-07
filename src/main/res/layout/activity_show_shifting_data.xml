@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowShiftingData"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Details"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/name1Id"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/email1Id"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/phone1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="22dp"
+                android:background="#150e0e">
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#190160"
+                android:text="The amount he charges"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="22dp"
+                android:background="#150e0e">
+            </View>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For persons 1-3"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/oneId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For persons 4-5"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/fourId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For persons 6-8"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/sixId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="22dp"
+                android:background="#150e0e">
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#190160"
+                android:text="The amount he charges for"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="22dp"
+                android:background="#150e0e">
+            </View>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 wheel van"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/van1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pickup truck"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/pickup1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 wheel truck"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/truck1Id"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+
+            <Button
+                android:id="@+id/callButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8ad7fd"
+
+                android:textStyle="bold"
+                android:textColor="#16578c"
+                android:textSize="25dp"
+                android:text="CALL"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="35dp">
+
+            </View>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout3_gradient"
+    android:orientation="vertical"
+    tools:context=".CarWashReg">
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Give Details"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for car wash at workshop"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/workshopId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter value"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for car wash home service"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/homeId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter value"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for interior deep cleaning"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/interiorId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter value"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for exterior wash and polish"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/exteriorId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter value"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for engine compartment deep cleaning"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/engineId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter value"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/signUpButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8ad7fd"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Signup"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

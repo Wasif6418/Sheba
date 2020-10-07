@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout3_gradient"
+    android:orientation="vertical"
+    tools:context=".CarWashReg">
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Details"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/nameId"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:text="Daiyan Ibrahim"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/emailId"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:text="email@mail.com"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/phoneId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:text="01787141384"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for car wash at workshop"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/workshopId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:text="dfssadasd"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for car wash home service"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/homeId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:text="dfssadasd"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for interior deep cleaning"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/interiorId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:text="dfssadasd"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for exterior wash and polish"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/exteriorId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:text="dfssadasd"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charge for engine compartment deep cleaning"
+                android:textColor="#060443"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/engineId"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:text="dfssadasd"
+                android:textColor="#382b8b"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                 />
+
+
+            <Button
+                android:id="@+id/callButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8ad7fd"
+
+                android:textStyle="bold"
+                android:textColor="#16578c"
+                android:textSize="25dp"
+                android:text="CALL"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

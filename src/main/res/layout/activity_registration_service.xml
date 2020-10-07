@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationUser"
+    android:orientation="vertical"
+    android:background="@drawable/layout3_gradient"
+    android:padding="12dp"
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/sbd" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/userNameId"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="12dp"
+                android:textColor="#383939"
+                android:hint="User name"
+                android:textColorHint="#383939"
+                />
+
+
+            <EditText
+                android:id="@+id/emailId"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="12dp"
+                android:textColor="#383939"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#383939"
+                />
+
+
+            <EditText
+                android:id="@+id/passwordId"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="12dp"
+                android:textColor="#383939"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="#383939"
+                />
+
+
+            <EditText
+                android:id="@+id/passwordId2"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="12dp"
+                android:textColor="#383939"
+                android:hint="Re-type password"
+                android:inputType="textPassword"
+                android:textColorHint="#383939"
+                />
+            <EditText
+                android:id="@+id/phoneId"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="12dp"
+                android:textColor="#383939"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:textColorHint="#383939"
+                />
+
+            <RadioGroup
+                android:id="@+id/radioGroupId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/carWashId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Car Wash"
+
+                    />
+                <RadioButton
+                    android:id="@+id/carRentalId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Car Rental"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/driverId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="On Demand Driver"
+
+                    />
+                <RadioButton
+                    android:id="@+id/shiftingId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shifting"
+
+                    />
+                <RadioButton
+                    android:id="@+id/tutorId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tutor"
+
+                    />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/nextButtonId"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#98caf1"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:text="Next"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#f2f0cd"
+
+
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
